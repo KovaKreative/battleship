@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue;
+}
+#playfield-container {
+  display:flex;
+}
+
+#playfield-container > table {
+  border: 3px solid black;
+  padding: 0;
+  margin: 10px;
+}
+th {
+  margin: 0;
+  padding: 0;
+  width: 64px;
+  height: 64px;
+}
+td {
+  background-color: powderblue;
+  margin: 0;
+  padding: 0;
+  border: 1px solid navy;
+  width: 32px;
+  height: 32px;
+}
+td:hover {
+  background-color: royalblue;
+}
+td:active {
+  background-color: navy;
+}
